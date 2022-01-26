@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case R.id.budot:
                     number+=".";
-                    break;
+                    break;        
                 case R.id.buplusminus:
                     number="-"+number;
                     break;
@@ -76,6 +76,9 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.bufslash:
                     op="/";
                     break;
+                case R.id,buast:
+                    op="*";
+                    break;
                 case R.id.buplus:
                     op="+";
                     break;
@@ -83,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
                     op="-";
                     break;
             }
+            result.setText(op);
         }
 
         public void equalEvent(View view) {
