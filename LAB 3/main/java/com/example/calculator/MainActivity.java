@@ -60,7 +60,10 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case R.id.budot:
                     number+=".";
-                    break;        
+                    break;
+                case R.id.bu0:
+                    number+="0";
+                    break;
                 case R.id.buplusminus:
                     number="-"+number;
                     break;
